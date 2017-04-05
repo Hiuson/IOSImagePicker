@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4AFE1BA15D79299E0710ED /* libPods-HIUImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA2B0B04644548C0E0ABA1 /* libPods-HIUImagePicker.a */; };
+		A50934B11E8C9AA4003EDED2 /* theDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = A50934B01E8C9AA4003EDED2 /* theDragView.m */; };
+		A52842641E84CCA300579B87 /* HIUImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52842631E84CCA300579B87 /* HIUImagePickerViewController.m */; };
+		A528426A1E84D08D00579B87 /* HIUImagePickerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A52842691E84D08D00579B87 /* HIUImagePickerFlowLayout.m */; };
+		A528426D1E84D0B600579B87 /* HIUImagePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A528426C1E84D0B600579B87 /* HIUImagePickerCollectionView.m */; };
+		A52842701E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A528426F1E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.m */; };
+		A52842731E84EC1C00579B87 /* HIUImagePickerFloatButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52842721E84EC1C00579B87 /* HIUImagePickerFloatButtonView.m */; };
+		A528428F1E84FAE000579B87 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52842861E84FAE000579B87 /* testViewController.m */; };
+		A52842901E84FAE000579B87 /* TheCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52842881E84FAE000579B87 /* TheCollectionReusableView.m */; };
+		A52842911E84FAE000579B87 /* TheCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A528428A1E84FAE000579B87 /* TheCollectionView.m */; };
+		A52842921E84FAE000579B87 /* theFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A528428C1E84FAE000579B87 /* theFlowLayout.m */; };
+		A52842931E84FAE000579B87 /* theTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A528428E1E84FAE000579B87 /* theTestViewController.m */; };
+		A52842961E85032800579B87 /* HIUImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52842951E85032800579B87 /* HIUImagePickerView.m */; };
+		A5EB21F01E810AA1007F0E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EB21EF1E810AA1007F0E32 /* main.m */; };
+		A5EB21F31E810AA1007F0E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EB21F21E810AA1007F0E32 /* AppDelegate.m */; };
+		A5EB21F61E810AA1007F0E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EB21F51E810AA1007F0E32 /* ViewController.m */; };
+		A5EB21F91E810AA1007F0E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB21F71E810AA1007F0E32 /* Main.storyboard */; };
+		A5EB21FB1E810AA1007F0E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EB21FA1E810AA1007F0E32 /* Assets.xcassets */; };
+		A5EB21FE1E810AA1007F0E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EB21FC1E810AA1007F0E32 /* LaunchScreen.storyboard */; };
+		A5EB22071E810B3E007F0E32 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EB22061E810B3E007F0E32 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A50934AF1E8C9AA4003EDED2 /* theDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theDragView.h; sourceTree = "<group>"; };
+		A50934B01E8C9AA4003EDED2 /* theDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theDragView.m; sourceTree = "<group>"; };
+		A52842621E84CCA300579B87 /* HIUImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUImagePickerViewController.h; sourceTree = "<group>"; };
+		A52842631E84CCA300579B87 /* HIUImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUImagePickerViewController.m; sourceTree = "<group>"; };
+		A52842681E84D08D00579B87 /* HIUImagePickerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUImagePickerFlowLayout.h; sourceTree = "<group>"; };
+		A52842691E84D08D00579B87 /* HIUImagePickerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUImagePickerFlowLayout.m; sourceTree = "<group>"; };
+		A528426B1E84D0B600579B87 /* HIUImagePickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUImagePickerCollectionView.h; sourceTree = "<group>"; };
+		A528426C1E84D0B600579B87 /* HIUImagePickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUImagePickerCollectionView.m; sourceTree = "<group>"; };
+		A528426E1E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUImagePickerCollectionViewCell.h; sourceTree = "<group>"; };
+		A528426F1E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUImagePickerCollectionViewCell.m; sourceTree = "<group>"; };
+		A52842711E84EC1C00579B87 /* HIUImagePickerFloatButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUImagePickerFloatButtonView.h; sourceTree = "<group>"; };
+		A52842721E84EC1C00579B87 /* HIUImagePickerFloatButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUImagePickerFloatButtonView.m; sourceTree = "<group>"; };
+		A52842851E84FAE000579B87 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		A52842861E84FAE000579B87 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		A52842871E84FAE000579B87 /* TheCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCollectionReusableView.h; sourceTree = "<group>"; };
+		A52842881E84FAE000579B87 /* TheCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheCollectionReusableView.m; sourceTree = "<group>"; };
+		A52842891E84FAE000579B87 /* TheCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCollectionView.h; sourceTree = "<group>"; };
+		A528428A1E84FAE000579B87 /* TheCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheCollectionView.m; sourceTree = "<group>"; };
+		A528428B1E84FAE000579B87 /* theFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theFlowLayout.h; sourceTree = "<group>"; };
+		A528428C1E84FAE000579B87 /* theFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theFlowLayout.m; sourceTree = "<group>"; };
+		A528428D1E84FAE000579B87 /* theTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTestViewController.h; sourceTree = "<group>"; };
+		A528428E1E84FAE000579B87 /* theTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTestViewController.m; sourceTree = "<group>"; };
+		A52842941E85032800579B87 /* HIUImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUImagePickerView.h; sourceTree = "<group>"; };
+		A52842951E85032800579B87 /* HIUImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUImagePickerView.m; sourceTree = "<group>"; };
+		A5EB21EB1E810AA1007F0E32 /* HIUImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIUImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EB21EF1E810AA1007F0E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5EB21F11E810AA1007F0E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5EB21F21E810AA1007F0E32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5EB21F41E810AA1007F0E32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5EB21F51E810AA1007F0E32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5EB21F81E810AA1007F0E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5EB21FA1E810AA1007F0E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5EB21FD1E810AA1007F0E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5EB21FF1E810AA1007F0E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EB22051E810B3E007F0E32 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A5EB22061E810B3E007F0E32 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		ABA41DB3DF5EB3E8CC4BC731 /* Pods-HIUImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIUImagePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HIUImagePicker/Pods-HIUImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		C12D1AA61B2FEDF33333B22F /* Pods-HIUImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIUImagePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-HIUImagePicker/Pods-HIUImagePicker.release.xcconfig"; sourceTree = "<group>"; };
+		F6DA2B0B04644548C0E0ABA1 /* libPods-HIUImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HIUImagePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EB21E81E810AA1007F0E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4AFE1BA15D79299E0710ED /* libPods-HIUImagePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183AA565BF97575EE2A288FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA2B0B04644548C0E0ABA1 /* libPods-HIUImagePicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A52842611E84CC8D00579B87 /* HIUImageSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A52842621E84CCA300579B87 /* HIUImagePickerViewController.h */,
+				A52842631E84CCA300579B87 /* HIUImagePickerViewController.m */,
+				A52842681E84D08D00579B87 /* HIUImagePickerFlowLayout.h */,
+				A52842691E84D08D00579B87 /* HIUImagePickerFlowLayout.m */,
+				A528426B1E84D0B600579B87 /* HIUImagePickerCollectionView.h */,
+				A528426C1E84D0B600579B87 /* HIUImagePickerCollectionView.m */,
+				A528426E1E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.h */,
+				A528426F1E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.m */,
+				A52842711E84EC1C00579B87 /* HIUImagePickerFloatButtonView.h */,
+				A52842721E84EC1C00579B87 /* HIUImagePickerFloatButtonView.m */,
+				A52842941E85032800579B87 /* HIUImagePickerView.h */,
+				A52842951E85032800579B87 /* HIUImagePickerView.m */,
+			);
+			path = HIUImageSelector;
+			sourceTree = "<group>";
+		};
+		A52842841E84FAE000579B87 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				A52842851E84FAE000579B87 /* testViewController.h */,
+				A52842861E84FAE000579B87 /* testViewController.m */,
+				A52842871E84FAE000579B87 /* TheCollectionReusableView.h */,
+				A52842881E84FAE000579B87 /* TheCollectionReusableView.m */,
+				A52842891E84FAE000579B87 /* TheCollectionView.h */,
+				A528428A1E84FAE000579B87 /* TheCollectionView.m */,
+				A528428B1E84FAE000579B87 /* theFlowLayout.h */,
+				A528428C1E84FAE000579B87 /* theFlowLayout.m */,
+				A528428D1E84FAE000579B87 /* theTestViewController.h */,
+				A528428E1E84FAE000579B87 /* theTestViewController.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		A5EB21E21E810AA0007F0E32 = {
+			isa = PBXGroup;
+			children = (
+				A5EB21ED1E810AA1007F0E32 /* HIUImagePicker */,
+				A5EB21EC1E810AA1007F0E32 /* Products */,
+				BA3049D71A0915944BBDE264 /* Pods */,
+				183AA565BF97575EE2A288FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EB21EC1E810AA1007F0E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB21EB1E810AA1007F0E32 /* HIUImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EB21ED1E810AA1007F0E32 /* HIUImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A52842841E84FAE000579B87 /* test */,
+				A52842611E84CC8D00579B87 /* HIUImageSelector */,
+				A5EB21F11E810AA1007F0E32 /* AppDelegate.h */,
+				A5EB21F21E810AA1007F0E32 /* AppDelegate.m */,
+				A5EB21F41E810AA1007F0E32 /* ViewController.h */,
+				A5EB21F51E810AA1007F0E32 /* ViewController.m */,
+				A5EB21F71E810AA1007F0E32 /* Main.storyboard */,
+				A5EB21FA1E810AA1007F0E32 /* Assets.xcassets */,
+				A5EB21FC1E810AA1007F0E32 /* LaunchScreen.storyboard */,
+				A5EB21FF1E810AA1007F0E32 /* Info.plist */,
+				A5EB21EE1E810AA1007F0E32 /* Supporting Files */,
+				A5EB22051E810B3E007F0E32 /* BaseViewController.h */,
+				A5EB22061E810B3E007F0E32 /* BaseViewController.m */,
+				A50934AF1E8C9AA4003EDED2 /* theDragView.h */,
+				A50934B01E8C9AA4003EDED2 /* theDragView.m */,
+			);
+			path = HIUImagePicker;
+			sourceTree = "<group>";
+		};
+		A5EB21EE1E810AA1007F0E32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB21EF1E810AA1007F0E32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA3049D71A0915944BBDE264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABA41DB3DF5EB3E8CC4BC731 /* Pods-HIUImagePicker.debug.xcconfig */,
+				C12D1AA61B2FEDF33333B22F /* Pods-HIUImagePicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EB21EA1E810AA1007F0E32 /* HIUImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EB22021E810AA1007F0E32 /* Build configuration list for PBXNativeTarget "HIUImagePicker" */;
+			buildPhases = (
+				F4AA437558DBF6D809A68576 /* [CP] Check Pods Manifest.lock */,
+				A5EB21E71E810AA1007F0E32 /* Sources */,
+				A5EB21E81E810AA1007F0E32 /* Frameworks */,
+				A5EB21E91E810AA1007F0E32 /* Resources */,
+				600A002A572EE9ECC4C9E9E7 /* [CP] Embed Pods Frameworks */,
+				5FCC933F3E7FDAA80F4751B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIUImagePicker;
+			productName = HIUImagePicker;
+			productReference = A5EB21EB1E810AA1007F0E32 /* HIUImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5EB21E31E810AA0007F0E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "周淳";
+				TargetAttributes = {
+					A5EB21EA1E810AA1007F0E32 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 74T9HZDA37;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5EB21E61E810AA0007F0E32 /* Build configuration list for PBXProject "HIUImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5EB21E21E810AA0007F0E32;
+			productRefGroup = A5EB21EC1E810AA1007F0E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EB21EA1E810AA1007F0E32 /* HIUImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5EB21E91E810AA1007F0E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB21FE1E810AA1007F0E32 /* LaunchScreen.storyboard in Resources */,
+				A5EB21FB1E810AA1007F0E32 /* Assets.xcassets in Resources */,
+				A5EB21F91E810AA1007F0E32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FCC933F3E7FDAA80F4751B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HIUImagePicker/Pods-HIUImagePicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600A002A572EE9ECC4C9E9E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HIUImagePicker/Pods-HIUImagePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4AA437558DBF6D809A68576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EB21E71E810AA1007F0E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52842961E85032800579B87 /* HIUImagePickerView.m in Sources */,
+				A5EB21F61E810AA1007F0E32 /* ViewController.m in Sources */,
+				A50934B11E8C9AA4003EDED2 /* theDragView.m in Sources */,
+				A52842901E84FAE000579B87 /* TheCollectionReusableView.m in Sources */,
+				A52842731E84EC1C00579B87 /* HIUImagePickerFloatButtonView.m in Sources */,
+				A5EB22071E810B3E007F0E32 /* BaseViewController.m in Sources */,
+				A5EB21F31E810AA1007F0E32 /* AppDelegate.m in Sources */,
+				A528428F1E84FAE000579B87 /* testViewController.m in Sources */,
+				A52842911E84FAE000579B87 /* TheCollectionView.m in Sources */,
+				A52842641E84CCA300579B87 /* HIUImagePickerViewController.m in Sources */,
+				A5EB21F01E810AA1007F0E32 /* main.m in Sources */,
+				A528426D1E84D0B600579B87 /* HIUImagePickerCollectionView.m in Sources */,
+				A528426A1E84D08D00579B87 /* HIUImagePickerFlowLayout.m in Sources */,
+				A52842701E84EB3D00579B87 /* HIUImagePickerCollectionViewCell.m in Sources */,
+				A52842931E84FAE000579B87 /* theTestViewController.m in Sources */,
+				A52842921E84FAE000579B87 /* theFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5EB21F71E810AA1007F0E32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EB21F81E810AA1007F0E32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5EB21FC1E810AA1007F0E32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EB21FD1E810AA1007F0E32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5EB22001E810AA1007F0E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5EB22011E810AA1007F0E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5EB22031E810AA1007F0E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA41DB3DF5EB3E8CC4BC731 /* Pods-HIUImagePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = HIUImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ND.HIUImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5EB22041E810AA1007F0E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12D1AA61B2FEDF33333B22F /* Pods-HIUImagePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 74T9HZDA37;
+				INFOPLIST_FILE = HIUImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ND.HIUImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EB21E61E810AA0007F0E32 /* Build configuration list for PBXProject "HIUImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB22001E810AA1007F0E32 /* Debug */,
+				A5EB22011E810AA1007F0E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EB22021E810AA1007F0E32 /* Build configuration list for PBXNativeTarget "HIUImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB22031E810AA1007F0E32 /* Debug */,
+				A5EB22041E810AA1007F0E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5EB21E31E810AA0007F0E32 /* Project object */;
+}
